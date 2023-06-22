@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: hypershift-operator-main
     app.kubernetes.io/part-of: hypershift-operator
-  name: hypershift-operator-maintpry
+  name: hypershift-operator-mainj3ic
 spec:
   port:
     targetPort: 9090
