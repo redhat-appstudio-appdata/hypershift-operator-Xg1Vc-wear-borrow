@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: hypershift-operator-main
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/hypershift-operator/hypershift-operator-main@sha256:168c5f02611434bd2899ab6768d9d8d55e2626a8f3a2ac9b082780aafade2f75
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/hypershift-operator/hypershift-operator-main@sha256:a9c13aa1f807a27055a7daf8a76629c22289fc45a82e27a7e89aea64a5c69aaa
         name: container-image
         resources: {}
 status: {}
