@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/hypershift-operator/hypershift-operator-main@sha256:c2e0ead53ea09c4228042c2498664b6c92fc320b5649858f52752aeb68cd6b93
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/hypershift-operator/hypershift-operator-main@sha256:f0382ff3155406b62ee39cb3bcee0fcb7cf6c194d07ba7bb66e629df4e7cef62
         name: container-image
         resources: {}
 status: {}
