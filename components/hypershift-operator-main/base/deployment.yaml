@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: hypershift-operator-main
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/hypershift-operator/hypershift-operator-main@sha256:1b1547f86aebf804bc27993128806dc9aeed4475636fd505c6eeb5a338fc8264
+      - image: quay.io/redhat-user-workloads/crt-redhat-acm-tenant/hypershift-operator/hypershift-operator-main@sha256:ac98189d0a9947a30d7732adcf5455265b738bc40664bef3786579f2a6be629c
         imagePullPolicy: Always
         name: container-image
         ports:
